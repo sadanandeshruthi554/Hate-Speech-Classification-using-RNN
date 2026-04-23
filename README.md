@@ -1,14 +1,13 @@
 ### 🧠 Hate Speech Classification using RNN
 ### 📌 Problem Statement
 
-The goal of this project is to build a binary classification model that can detect whether a tweet contains hate speech or not. This is achieved using a Simple Recurrent Neural Network (RNN).
+- The goal of this project is to build a binary classification model that can detect whether a tweet contains hate speech or not. This is achieved using a Simple Recurrent Neural Network (RNN).
 ---------------
 ### 📂 Dataset
 
 The dataset consists of tweets and corresponding labels:
-
-tweet → Text data
-label → 0 (Non-hate speech), 1 (Hate speech)
+- tweet → Text data
+- label → 0 (Non-hate speech), 1 (Hate speech)
 ----------------
 ### 🧹 Data Preprocessing
 
@@ -64,22 +63,22 @@ The model consists of:
 ---------------------
 ### 🚀 How to Run the Project
 
-pip install pandas numpy scikit-learn tensorflow
-python app.py
+- pip install pandas numpy scikit-learn tensorflow
+- python app.py
 ----------------------
 ### 📁 Project Structure
 
 Hate-Speech-Classification-using-RNN/
-│── dataset.csv
-│── app.py / notebook.ipynb
-│── README.md
+- dataset.csv
+- app.py / notebook.ipynb
+- README.md
 ----------------------
 ### ⚠️ Constraints Followed
 
-Used only Simple RNN (no LSTM/GRU)
-No pre-trained embeddings used
-All preprocessing steps implemented
+- Used only Simple RNN (no LSTM/GRU)
+- No pre-trained embeddings used
+- All preprocessing steps implemented
 --------------------
 ### ✅ Conclusion
 
-This project demonstrates how a Simple RNN can be effectively used for text classification tasks like hate speech detection using basic NLP preprocessing techniques.
+- This project demonstrates how a Simple RNN can be effectively used for text classification tasks like hate speech detection using basic NLP preprocessing techniques.
